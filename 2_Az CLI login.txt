@@ -1,0 +1,14 @@
+2022-02-24T03:56:56.1148100Z ##[group]Run azure/login@1f63701bf3e6892515f1b7ce2d2bf1708b46beaf
+2022-02-24T03:56:56.1148469Z with:
+2022-02-24T03:56:56.1148713Z   enable-AzPSSession: false
+2022-02-24T03:56:56.1148983Z   environment: azurecloud
+2022-02-24T03:56:56.1149230Z   allow-no-subscriptions: false
+2022-02-24T03:56:56.1149532Z   audience: api://AzureADTokenExchange
+2022-02-24T03:56:56.1149783Z env:
+2022-02-24T03:56:56.1149990Z   PR_NUMBER: 1
+2022-02-24T03:56:56.1150241Z   COMMIT_REF: 2d7c165f936c6e15b24bfef8d224bbcf5059052e
+2022-02-24T03:56:56.1150563Z   BRANCH_NAME: dependabot/docker/node-17.6.0-alpine
+2022-02-24T03:56:56.1150836Z   IS_INTERNAL_BUILD: false
+2022-02-24T03:56:56.1151057Z   IS_PUBLIC_BUILD: true
+2022-02-24T03:56:56.1151287Z ##[endgroup]
+2022-02-24T03:57:04.9465415Z ##[error]Az CLI Login failed. Please check the credentials and make sure az is installed on the runner. For more information refer https://aka.ms/create-secrets-for-GitHub-workflows
